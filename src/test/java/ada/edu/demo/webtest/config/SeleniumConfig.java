@@ -23,7 +23,7 @@ public class SeleniumConfig {
 
         WebDriverManager.chromedriver().setup();
         // return new FirefoxDriver(options);
-        return new ChromeDriver();
+        return new ChromeDriver(options);
         // return new FirefoxDriver();
     }
 }
