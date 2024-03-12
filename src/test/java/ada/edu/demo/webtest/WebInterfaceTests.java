@@ -94,7 +94,7 @@ class WebInterfaceTests {
 		WebElement submitButton = driver.findElement(By.id("submit"));
 		submitButton.click();
 
-		WebElement message1 = driver.findElement(By.id("sucessMessage"));
+		WebElement message1 = driver.findElement(By.id("successMessage"));
 		assertTrue(message1.isDisplayed());
 		driver.quit();
 	}
