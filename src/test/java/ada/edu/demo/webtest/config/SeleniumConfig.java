@@ -19,7 +19,7 @@ public class SeleniumConfig {
         // FirefoxOptions options = new FirefoxOptions();
         ChromeOptions options = new ChromeOptions();
 
-        // options.addArguments("--headless");
+        options.addArguments("--headless");
 
         WebDriverManager.chromedriver().setup();
         // return new FirefoxDriver(options);
