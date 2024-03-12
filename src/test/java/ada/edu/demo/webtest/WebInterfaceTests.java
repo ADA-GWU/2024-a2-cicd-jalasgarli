@@ -83,7 +83,7 @@ class WebInterfaceTests {
 	@DisplayName("Cheking Submit Form")
 	void testSubmitButton() {
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://localhost:8080/student/new");
+		driver.get("http://localhost:" + port + "/student/new");
 
 		WebElement firstNameInput = driver.findElement(By.id("firstName"));
 		firstNameInput.sendKeys("Nicat");
